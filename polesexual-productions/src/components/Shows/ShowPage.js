@@ -5,7 +5,7 @@ const ShowPage = props => {
 
     return <>
         <h3>{props.showname}</h3>
-        <img>{props.showImage}</img>
+        {/* <img>{props.showImage}</img> */}
         <h4>{nextShowInfo}</h4>
     </>;
 }

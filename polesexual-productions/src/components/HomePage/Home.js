@@ -4,9 +4,11 @@ import UpcomingShow from './UpcomingShow';
 
 class Home extends Component {
     render() {
+        const { changePage } = this.props;
+
         return (<>
-       <UpcomingShow />
-       <ShowNavigation />
+            <UpcomingShow />
+            <ShowNavigation changePage={changePage} />
         </>)
     }
 }
