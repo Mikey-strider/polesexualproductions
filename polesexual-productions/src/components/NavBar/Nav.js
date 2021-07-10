@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class Nav extends Component {
     render() {
         return (<>
@@ -7,6 +8,7 @@ class Nav extends Component {
             <button>About Us</button>
             <button>Shows</button>
             <button>Sister Parties</button>
+            <button>Sponsors</button>
             <button>Contact Us</button>
 
         </>)
