@@ -1,11 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
+import NavPage from './NavPage';
 
-class Sister extends Component {
-    render() {
-        return(<>
-        
-        </>)
-    }
+const SisterParties = () => {
+    return <NavPage name="SisterParties" img="" nextDate="July 18th" barLocation="Powerhouse" />
 }
 
-export default Sister;
+export default SisterParties;

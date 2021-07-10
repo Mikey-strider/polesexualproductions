@@ -5,7 +5,7 @@ import Power from './Shows/Power';
 import Home from './HomePage/Home';
 // import Nav from '../NavBar/Nav';
 
-class Base extends Component {
+class NavBase extends Component {
     constructor() {
         super();
         this.state = {
@@ -36,4 +36,4 @@ class Base extends Component {
     }
 }
 
-export default Base;
+export default NavBase;
