@@ -11,6 +11,7 @@ class ShowNavigation extends Component {
             <button onClick={() => this.updateShow("pole")}>PoleSexual</button>
             <button onClick={() => this.updateShow("ctg")}>CockTailGate</button>
             <button onClick={() => this.updateShow("power")}>Power</button>
+            <button onClick={() => this.updateShow("divas")}>DivasLanding</button>
         </>)
     }
 }

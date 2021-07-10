@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CockTailGate from './Shows/CockTailGate';
 import PoleSexual from './Shows/PoleSexual';
 import Power from './Shows/Power';
+import Divas from './Shows/DivasLanding'
 import Home from './HomePage/Home';
 // import Nav from '../NavBar/Nav';
 
@@ -30,7 +31,9 @@ class Base extends Component {
             return <CockTailGate />
         } else if (page === "power") {
             return <Power />
-        } else {
+        } else if (page === "divas") {
+            return <Divas />
+        }   else {
             return "Oops something went wrong!";
         }
     }
