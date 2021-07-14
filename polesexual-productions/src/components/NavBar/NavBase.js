@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import CockTailGate from './Shows/CockTailGate';
-import PoleSexual from './Shows/PoleSexual';
-import Power from './Shows/Power';
+import About from '../NavBarContents/About';
+import Contact from '../NavBarContents/ContactUs';
+import SisterParties from '../NavBarContents/SisterParties';
+import Sponsors from '../NavBarContents/Sponsors';
+// import NavNavigation from './NavNavigation';
 import Home from './HomePage/Home';
 // import Nav from '../NavBar/Nav';
 
@@ -24,12 +26,14 @@ class NavBase extends Component {
 
         if (page === "home") {
             return <Home changePage={this.changePage} />
-        } else if (page === "pole") {
-            return <PoleSexual />
-        } else if (page === "ctg") {
-            return <CockTailGate />
-        } else if (page === "power") {
-            return <Power />
+        } else if (page === "about") {
+            return <About />
+        } else if (page === "contact") {
+            return <Contact />
+        } else if (page === "sister") {
+            return <SisterParties />
+        } else if (page === "sponsor") {
+            return <Sponsors />
         } else {
             return "Oops something went wrong!";
         }

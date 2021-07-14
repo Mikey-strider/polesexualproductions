@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import ShowNavigation from './ShowNavigation';
 import UpcomingShow from './UpcomingShow';
-import Nav from '../NavBar/Nav';
-import Contact from '../NavBarContents/ContactUs'
+import NavNavigation from '../NavBar/NavNavigation';
+// import Contact from '../NavBarContents/ContactUs'
 
 
 class Home extends Component {
@@ -10,10 +10,10 @@ class Home extends Component {
         const { changePage } = this.props;
 
         return (<>
-            <Nav />
+            <NavNavigation changePage={changePage} />
             <UpcomingShow />
             <ShowNavigation changePage={changePage} />
-            <Contact />
+            {/* <Contact /> */}
         </>)
     }
 }

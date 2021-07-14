@@ -1,12 +1,12 @@
 import React from 'react';
 
 const NavPage = props => {
-    const nextShowInfo = `Come see our next show on ${props.nextDate} at Powerhouse!`;
+    const navPageInfo = `${props.name}`;
 
     return <>
-        <h3>{props.showname}</h3>
+        {/* <h3>{props.className}</h3> */}
         {/* <img>{props.showImage}</img> */}
-        <h4>{nextShowInfo}</h4>
+        <p>{navPageInfo}</p>
     </>;
 }
 

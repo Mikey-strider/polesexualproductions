@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class ShowNavigation extends Component {
+class NavNavigation extends Component {
     updateShow(show) {
         const { changePage } = this.props;
         changePage(show);
@@ -8,11 +8,12 @@ class ShowNavigation extends Component {
 
     render() {
         return (<>
-            <button onClick={() => this.updateShow("pole")}>PoleSexual</button>
-            <button onClick={() => this.updateShow("ctg")}>CockTailGate</button>
-            <button onClick={() => this.updateShow("power")}>Power</button>
+            <button onClick={() => this.updateShow("about")}>About</button>
+            <button onClick={() => this.updateShow("contact")}>Contact Us</button>
+            <button onClick={() => this.updateShow("sister")}>Sister Parties</button>
+            <button onClick={() => this.updateShow("sponsor")}>Sponsors</button>
         </>)
     }
 }
 
-export default ShowNavigation;
+export default NavNavigation; 
