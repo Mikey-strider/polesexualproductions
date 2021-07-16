@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ShowNavigation from './ShowNavigation';
 import UpcomingShow from './UpcomingShow';
-import NavNavigation from '../NavBar/NavNavigation';
+import NavNavigation from '../NavBars/NavNavigation';
 // import Contact from '../NavBarContents/ContactUs'
 
 
