@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 
 class NavNavigation extends Component {
-    updateShow(show) {
+    updateNav(nav) {
         const { changePage } = this.props;
-        changePage(show);
+        changePage(nav);
     }
 
     render() {
         return (<>
-            <button onClick={() => this.updateShow("about")}>About</button>
-            <button onClick={() => this.updateShow("contact")}>Contact Us</button>
-            <button onClick={() => this.updateShow("sister")}>Sister Parties</button>
-            <button onClick={() => this.updateShow("sponsor")}>Sponsors</button>
+            <button onClick={() => this.updateNav("about")}>About</button>
+            <button onClick={() => this.updateNav("contact")}>Contact Us</button>
+            <button onClick={() => this.updateNav("sister")}>Sister Parties</button>
+            <button onClick={() => this.updateNav("sponsor")}>Sponsors</button>
         </>)
     }
 }

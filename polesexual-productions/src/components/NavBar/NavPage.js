@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
+import SisterParties from '../NavBarContents/SisterParties';
 
-const NavPage = props => {
-    const navPageInfo = `${props.name}`;
 
-    return <>
-        {/* <h3>{props.className}</h3> */}
-        {/* <img>{props.showImage}</img> */}
-        <p>{navPageInfo}</p>
-    </>;
+class NavPage extends Component {
+    render() {
+        return <>
+         <div>
+             <h1>Hello there</h1>
+         </div>
+        </>;
+    }
 }
 
 export default NavPage;
+
+
+
+// const NavPage = props => {
+    //     const navPageInfo = `${props.name}`;

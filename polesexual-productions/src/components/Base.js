@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import CockTailGate from './Shows/CockTailGate';
 import PoleSexual from './Shows/PoleSexual';
 import Power from './Shows/Power';
-import Divas from './Shows/DivasLanding'
+import Divas from './Shows/DivasLanding';
 import Home from './HomePage/Home';
 // import Nav from '../NavBar/Nav';
 

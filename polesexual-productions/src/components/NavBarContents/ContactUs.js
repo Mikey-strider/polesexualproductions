@@ -3,7 +3,7 @@ import NavPage from "../NavBar/NavPage"
 
 const Contact = () => {
     return  (
-    <div className="links" >
+        <div>
                <NavPage name="Contact Us" />
                <a href="https://www.instagram.com/polesexual/">Instagram</a>
                <a href="https://www.facebook.com/cocktailgate">Facebook</a>
