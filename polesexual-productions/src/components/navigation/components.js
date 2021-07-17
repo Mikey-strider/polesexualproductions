@@ -9,10 +9,10 @@ export const MainLink = styled.a`
 
 export const MainWrapper = styled.div`
 display: flex;
-flexDirection: row;
+flex-Direction: row;
 `
 
 export const BaseWrapper = styled.div`
 display: flex;
-flexDirection: column;
+flex-Direction: column;
 `

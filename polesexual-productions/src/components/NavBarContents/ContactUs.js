@@ -1,17 +1,16 @@
-import React from 'react';
-import NavPage from "../NavBar/NavPage"
 
-const Contact = () => {
-    return  (
-        <div>
-               <NavPage name="Contact Us" />
-               <a href="https://www.instagram.com/polesexual/">Instagram</a>
-               <a href="https://www.facebook.com/cocktailgate">Facebook</a>
-               <a href="https://www.twitch.tv/poleathome">Twitch</a>
-               <a href="https://www.youtube.com/user/COCKTAILGATE">youtube</a>
-               <a href="https://twitter.com/polesexual">Twitter</a>
-        </div>)
-}
+
+// const Contact = () => {
+//     return  (
+//         <div>
+//                < name="Contact Us" />
+//                <a href="https://www.instagram.com/polesexual/">Instagram</a>
+//                <a href="https://www.facebook.com/cocktailgate">Facebook</a>
+//                <a href="https://www.twitch.tv/poleathome">Twitch</a>
+//                <a href="https://www.youtube.com/user/COCKTAILGATE">youtube</a>
+//                <a href="https://twitter.com/polesexual">Twitter</a>
+//         </div>)
+// }
 
 
 
@@ -30,4 +29,4 @@ const Contact = () => {
 //     }
 // }
 
-export default Contact;
+// export default Contact;
