@@ -6,3 +6,13 @@ export const MainLink = styled.a`
   margin: 3px;
   text-decoration: none;
 `
+
+export const MainWrapper = styled.div`
+display: flex;
+flexDirection: row;
+`
+
+export const BaseWrapper = styled.div`
+display: flex;
+flexDirection: column;
+`

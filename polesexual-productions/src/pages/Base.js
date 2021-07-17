@@ -2,11 +2,12 @@ import { BrowserRouter } from 'react-router-dom';
 import MainNav from '../components/navigation/MainNav';
 import Router from './Router';
 import EventNav from '../components/navigation/EventNav';
+import { BaseWrapper } from '../components/navigation/components';
 
 const Base = () => {
   return (
     <BrowserRouter>
-      <div style={{display: 'flex', flexDirection: 'column'}}>
+      <div component={BaseWrapper}>
         <MainNav />
         <Router />
         <EventNav />
