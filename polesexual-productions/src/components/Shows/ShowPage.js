@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ShowPage = props => {
     const nextShowInfo = `Come see our next show on ${props.nextDate} at ${props.barLocation}!`;

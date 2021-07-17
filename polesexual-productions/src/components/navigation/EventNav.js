@@ -8,7 +8,7 @@ const EventNav = () => {
     "Diva's Landing"
   ]
 
-  const eventLinks = events.map((name, index) => {
+  const eventLinks = events.map((name) => {
     return (
       <Link key={Math.random()} to={`/events/${name.toLowerCase()}`}>{name}</Link>
     );
