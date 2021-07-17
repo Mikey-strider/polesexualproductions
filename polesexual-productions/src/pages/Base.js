@@ -7,11 +7,11 @@ import { BaseWrapper } from '../components/navigation/components';
 const Base = () => {
   return (
     <BrowserRouter>
-      <div component={BaseWrapper}>
+      <BaseWrapper>
         <MainNav />
         <Router />
         <EventNav />
-      </div>
+      </BaseWrapper>
     </BrowserRouter>
   )
 }
