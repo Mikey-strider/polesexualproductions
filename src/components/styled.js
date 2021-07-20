@@ -19,6 +19,14 @@ export const CocktailgatePage = styled.div`
   background-color: green;
 `
 
+export const PowerPage = styled.div`
+  background-color: blue;
+`
+
+export const DivasLandingPage = styled.div`
+  background-color: orange;
+`
+
 export const GlobalStyle = createGlobalStyle`
 body {
   width: 1200px;
