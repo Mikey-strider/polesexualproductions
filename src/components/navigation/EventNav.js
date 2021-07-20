@@ -1,16 +1,11 @@
 import { Link } from "react-router-dom"
+import { events } from '../../utility/events.js'
 
 const EventNav = () => {
-  const events = [
-    "Polesexual",
-    "Cocktailgate",
-    "Power",
-    "Diva's Landing"
-  ]
 
-  const eventLinks = events.map((name) => {
+  const eventLinks = Object.values(events).map((event) => {
     return (
-      <Link key={Math.random()} to={`/events/${name.toLowerCase()}`}>{name}</Link>
+      <Link key={Math.random()} to={`/events/${event.slug}`}>{event.name}</Link>
     );
   });
 

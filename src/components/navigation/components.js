@@ -7,12 +7,3 @@ export const MainLink = styled.a`
   text-decoration: none;
 `
 
-export const MainWrapper = styled.div`
-display: flex;
-flex-Direction: row;
-`
-
-export const BaseWrapper = styled.div`
-display: flex;
-flex-Direction: column;
-`
