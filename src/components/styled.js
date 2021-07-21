@@ -12,18 +12,30 @@ export const BaseWrapper = styled.div`
 `
 
 export const PolesexualPage = styled.div`
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
   background-color: red;
 `
 
 export const CocktailgatePage = styled.div`
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
   background-color: green;
 `
 
 export const PowerPage = styled.div`
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
   background-color: blue;
 `
 
 export const DivasLandingPage = styled.div`
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
   background-color: orange;
 `
 
