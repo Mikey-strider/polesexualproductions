@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { events } from '../../utility/events.js'
+import Footer from "../pageComponents/footer.js";
 
 const EventNav = () => {
 
@@ -12,6 +13,7 @@ const EventNav = () => {
   return (
     <div>
       {eventLinks}
+      <Footer />
     </div>
   )
 }

@@ -39,6 +39,12 @@ export const DivasLandingPage = styled.div`
   background-color: orange;
 `
 
+// export const FooterPage = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-item: bottom;
+// `
+
 export const GlobalStyle = createGlobalStyle`
 body {
   width: 1200px;
