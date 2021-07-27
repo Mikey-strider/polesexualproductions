@@ -1,4 +1,4 @@
-import { PolesexualPage, CocktailgatePage, PowerPage, DivasLandingPage } from "../components/styled";
+import { PolesexualPage, CocktailgatePage, PowerPage, DecodedPage } from "../components/styled";
 
 export const events = {
   polesexual: {
@@ -16,9 +16,9 @@ export const events = {
     name: "Power",
     slug: 'power'
   },
-  divaslanding: {
-    pageComponent: DivasLandingPage,
-    name: "Diva's Landing",
-    slug: 'divaslanding',
+  decoded: {
+    pageComponent: DecodedPage,
+    name: "Decoded",
+    slug: 'decoded',
   },
 }

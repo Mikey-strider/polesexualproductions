@@ -32,7 +32,7 @@ export const PowerPage = styled.div`
   background-color: blue;
 `
 
-export const DivasLandingPage = styled.div`
+export const DecodedPage = styled.div`
   font-size: 50px;
   display: flex;
   justify-content: center;
