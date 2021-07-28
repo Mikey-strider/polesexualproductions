@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
-import { events } from '../../utility/events.js'
+import { Link } from "react-router-dom";
+import { events } from '../../utility/events.js';
 import Footer from "../pageComponents/footer.js";
+import Header from "../pageComponents/header.js";
 // import { FooterPage } from "../styled.js";
 
 const EventNav = () => {
@@ -15,6 +16,7 @@ const EventNav = () => {
 
   return (
     <div>
+      <Header />
       {eventLinks}
       <Footer />
     </div>

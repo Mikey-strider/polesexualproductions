@@ -3,7 +3,7 @@ import Contact from "./contactUs";
 
 export const Footer = () => {
   return(
-    <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end"}}>
+    <div style={{display: "flex", flexDirection: "column",justifyContent: "flex-end", alignItems: "flex-end"}}>
       <Contact />
     </div>
   )

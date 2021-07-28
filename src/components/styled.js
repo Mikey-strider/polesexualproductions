@@ -8,7 +8,7 @@ export const MainWrapper = styled.div`
 export const BaseWrapper = styled.div`
   display: flex;
   flex-Direction: column;
-  background-color: #222;
+  background-color: #666;
 `
 
 export const PolesexualPage = styled.div`
@@ -37,6 +37,13 @@ export const DecodedPage = styled.div`
   display: flex;
   justify-content: center;
   background-color: orange;
+`
+
+export const RorShokPage = styled.div`
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: pink;
 `
 
 export const FooterPage = styled.div`
