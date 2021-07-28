@@ -7,7 +7,7 @@ const Router = () => {
       <Route path="/about">
         <div>About US</div>
       </Route>
-      <Route path="/events/:name">
+      <Route path="/events/:slug">
         <Event />
       </Route>
       <Route path="/events">

@@ -1,12 +1,21 @@
-import { useParams } from "react-router-dom";
+import { Redirect, useParams } from "react-router-dom";
+import { events } from '../utility/events';
 
 const Event = () => {
-  const {name} = useParams();
+  const {slug} = useParams();
+
+  if (!slug || !Object.keys(events).includes(slug)){
+    return <Redirect to="/" />;
+  }
+
+  const Page = events[slug].pageComponent;
+
+  console.log(Page);
 
   return (
-    <div>
-      {name}
-    </div>
+    <Page>
+      {events[slug].name} 
+    </Page>
   )
 }
 
